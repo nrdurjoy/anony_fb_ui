@@ -585,6 +585,9 @@ main {
 }
 .post-img-cover{
     flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .post-img-over{
     flex-basis: 225px;

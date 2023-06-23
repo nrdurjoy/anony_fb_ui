@@ -109,6 +109,11 @@
     .post-img-over{
         flex-basis: 160px;
     }
+    .post-img-cover{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .img-over-box{
         width: 280px;
         height: 280px;
