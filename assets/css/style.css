@@ -328,7 +328,6 @@ main {
 .story{
     height: 200px;
     width: 11.3%;
-    background-color: yellowgreen;
     border-radius: 10px;
     position: relative;
 }
