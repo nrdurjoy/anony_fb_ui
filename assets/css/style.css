@@ -259,7 +259,6 @@ main {
 }
 .middle-container{
     padding-top: 75px;
-    margin-bottom: 15px;
     width: 500px;
 }
 .story-reels{
@@ -495,10 +494,17 @@ main {
     color: #65676B;
     font-weight: 600;
 }
+.posts{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
 .post{
     background-color: #ffffff;
     border-radius: 5px;
-    margin-top: 15px;
+    overflow: hidden;
 }
 .post-header{
     display: flex;
@@ -542,6 +548,9 @@ main {
     color: #65676B;
     font-size: 12px;
 }
+.poster-avatar svg:hover{
+    cursor: pointer;
+}
 .post-control{
     display: flex;
     align-items: center;
@@ -570,6 +579,9 @@ main {
     flex-direction: column;
     border-bottom: 1px solid #e5e5e5;
     position: relative;
+}
+.post-height{
+    height: auto;
 }
 .post-img-cover{
     flex-grow: 1;
@@ -601,6 +613,7 @@ main {
 }
 .post-footer{
     margin: 0 16px;
+    padding-bottom: 10px;
 }
 .counter{
     padding: 6px 0;
