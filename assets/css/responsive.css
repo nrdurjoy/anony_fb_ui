@@ -132,6 +132,16 @@
         left: 50%;
         transform: translate(-143px, -139px);
     }
+    .counts-coms span{
+        font-size: 13px;
+    }
+    .counts-coms img{
+        width: 13px;
+        height: 13px;
+    }
+    .reacts-img span{
+        font-size: 13px;
+    }
     .interact-box{
         padding: 8px 20px;
     }

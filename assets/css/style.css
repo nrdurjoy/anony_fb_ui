@@ -729,7 +729,21 @@ main {
     content: attr(data-tag);
     position: absolute;
     bottom: -29px;
-    left: -63px;
+    left: -42px;
+    padding: 5px 6px;
+    background-color: #050505;
+    color: #ffffff;
+    border-radius: 5px;
+    text-align: center;
+    opacity: 0.8;
+}
+.icon-box:nth-child(2)::after{
+    display: none;
+    width: 200px;
+    content: attr(data-tag);
+    position: absolute;
+    bottom: -29px;
+    left: -178px;
     padding: 5px 6px;
     background-color: #050505;
     color: #ffffff;
@@ -740,6 +754,9 @@ main {
 .icon-box:hover{
     background-color: #D8DADF;
     cursor: pointer;
+}
+.icon-box:nth-child(2):hover:after{
+    display: block;
 }
 .icon-box span{
     font-size: 20px;
