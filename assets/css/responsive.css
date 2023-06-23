@@ -1,5 +1,5 @@
 
-@media only screen and (max-width: 1260px) {
+@media (max-width: 1260px) {
     .search{
         width: 40px;
         height: 40px;
@@ -39,7 +39,7 @@
     }
   }
 
-  @media only screen and (max-width: 900px){
+  @media (max-width: 900px){
     .nav ul li{
         padding: 7px 20px;
     }
@@ -48,12 +48,12 @@
     }
   }
 
-  @media only screen and (max-width: 768px){
+  @media (max-width: 768px){
     .nav ul li{
         padding: 7px 15px;
     }
   }
-  @media only screen and (max-width: 701px){
+  @media (max-width: 701px){
     .nav ul li{
         padding: 7px 0px;
     }
@@ -63,5 +63,38 @@
     .logo-search div:last-child{
         display: block;
     }
+    .nav ul li:hover:after{
+        display: none;
+    }
+    .nav ul li:first-child{
+        border-bottom: none;
+    }
    
+  }
+
+  @media (max-width: 576px){
+    .middle-section{
+        width: 500px;
+        display: flex;
+        justify-content: center;
+        padding: 0 6px 15px 10px;
+    }
+    .middle-container{
+        width: 95%;
+    }
+    .writing-tool{
+        padding: 8px 8px;
+    }
+  }
+
+  @media (max-width: 473px){
+    .writing-tool:last-child{
+        display: none;
+    }
+    .writing-tool{
+        padding: 8px 40px;
+    }
+    .writing-tools-wrapper{
+        display: flex;
+    }
   }
