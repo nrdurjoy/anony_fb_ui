@@ -137,6 +137,9 @@
   }
 
   @media (max-width: 360px){
+    .story{
+        width: 90px;
+    }
     .middle-section{
         width: 360px;
         display: flex;
